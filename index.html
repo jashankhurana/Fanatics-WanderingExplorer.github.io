@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Wandering Explorer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Fanatics">
+<meta name="description" content="Touring Site">
+<style>
+.logo{height:6%; width:7%; float:left;}
+.disclaimerp{text-align:center;}
+.imagemapcaption{text-align:center;}
+.abc{text-align:center; text-weigth:bold;padding-top:30px;}`
+.disclaimer{color:black;}
+div{margin-top:10px;background-color:yellow;border: 2px solid black;padding:4px;}
+h1.header{text-align:center;margin-top:30px;font-size:40px;font-family: 'Dancing Script', cursive;color:;}
+ul{list-style-type: none; margin: 0px; padding:0px; overflow: hidden; background-color: #333}
+li{float:left;}
+li a{display: block; color:white; text-align: center; padding: 20px 25px; text-decoration: none;}
+li a:hover:not(.active){background-color:#111;}
+.active{background-color: #4CAF50;}
+.navmargin{margin-top:60px}
+@media only screen and (max-width: 426px){
+.disclaimerp{text-align:center;font-size:8px;}
+.imagemapcaption{text-align:center;font-size:10px;}
+.abc{text-align:center; text-weigth:bold;padding-top:30px;font-size:20px;}
+.logo{height:12%; width:12%; float:left;}
+.navmargin{margin-top:20px;}
+h1.disclaimer{color:black;text-align:center; font-size:10px;}
+div{margin-top:10px;border: 1px solid black;padding:1px; background-color:yellow;}
+
+h1.header{text-align:center;margin-top:10px;font-size:30px;font-family: 'Dancing Script', cursive;color:;}
+ul{list-style-type: none; margin: 0px; padding:0px; overflow: hidden; background-color: #333}
+li{float:left;}
+li a{display: block; color:white; text-align: center; padding: 5px 2px; text-decoration: none;}
+li a:hover:not(.active){background-color:#111;}
+.active{background-color: #4CAF50;}
+}
+</style>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<img class="logo" alt="logo" src="pic/logo1.png">
+<h1 class="header">Wandering Explorer</h1>
+<nav class="navmargin">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="north america.html">North America</a></li>
+<li><a href="australia.html">Australia</a></li>
+<li><a href="europe.html">Europe</a></li>
+<li><a href="asia.html">Asia</a></li>
+<li style="float:right"><a class="active" href="about.html">About Us</a></li>
+</nav>
+<h1 class="abc">WHERE WOULD YOU LIKE TO GO?</h1>
+<figure><img src="pic/world map.jpg" alt="World Map" margin-top="80px" heigth="600px" width="100%" float="center" usemap="#workmap"><figcaption class="imagemapcaption"> Click on the Continent you would like to wisit</figcaption></figure>
+<map name="workmap">
+<area shape="rect" coords="196,61,600,350" href="north america.html">
+<area shape="rect" coords="750,45,950,211" href="europe.html">
+<area shape="rect" coords="960,39,1358,352" href="asia.html">
+<area shape="rect" coords="1200,400,1474,658" href="australia.html">
+</map>
+<div>
+<footer>
+<h1 class="disclaimer" style="text-align:center;"> DISCLAIMER </h1>
+<p class="disclaimerp">This is a project of CIS 145 , Web Publishing Course in UFV, Instructed and requested by Professor Lili Saghafi</p>
+<img src="pic/508.jpeg" alt="508 complaince" height="10%" width="14%" float="right" style="margin-left:100px; margin-top:-90px;">
+</footer>
+</div>
+</body>
+</html>
